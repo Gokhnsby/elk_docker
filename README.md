@@ -33,8 +33,8 @@ vm.max_map_count = 262144
 
 --if there is error about vm.max------------------------
 
-vm.max_map_count = 262144 --increase that parameter--
+vm.max_map_count = 262144 --increase that parameter to--
 vm.max_map_count = 299000
 
-sysctl -w vm.max_map_count=299000
-------------------------------------------
+#sysctl -w vm.max_map_count=299000
+
