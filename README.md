@@ -9,15 +9,7 @@
 #sudo apt update
 
 #apt-cache policy docker-ce
-		----------------------------------	
-			docker-ce:
-			Installed: (none)
-			Candidate: 5:19.03.9~3-0~ubuntu-focal
-			Version table:
-			5:19.03.9~3-0~ubuntu-focal 500
-			500 https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
-		-----------------------------------
-		
+
 #sudo apt install docker-ce
 
 Then you need to edit /etc/sysctl.conf and add;
